@@ -16,6 +16,7 @@ public class TestController {
 	
 	@RequestMapping("/test")
 	public String test(Model model) {
+		System.out.println("First time update code");
 		model.addAttribute("list", memberService.getMemberList());
 		return "helloworld";
 	}
