@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wangku.file.dao.IFileDao">
+
+	<select id="getMemberList" resultType= "com.tdworld.web.model.Member">
+		SELECT id, name, age, mobile FROM member 
+	</select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
